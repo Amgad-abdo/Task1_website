@@ -68,37 +68,40 @@ body{
     margin-bottom: 0%;
 }
 .product-col img{
-    width: 80%;
+    width: 100%;
     display: block;
-    height: 80%;
+    height: 100%;
+    
 }
 .layer{
     background: transparent;
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
     transition: 0.5s ease;
-    height: 80%;
+    /* height: 80%; */
+    display: flex;
+    align-items: center;
 }
 .layer:hover {
     background: rgba(66, 62, 62, 0.7);
+    top: 0%;
 }
 .layer H3{
-    width: 100%;
+    width: 80%;
     font-weight: 500;
     color: #fff;
     font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
+    padding: 5%;
     opacity: 0;
     transition: 0.5s ease;
+    text-align: center;
+
 }
 .layer:hover h3{
-    bottom: 20%;
+   
     opacity: 1;
     
 }
